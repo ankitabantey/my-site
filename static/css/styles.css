@@ -374,7 +374,7 @@ img {
 }
 
 .m-btn-link-white {
-  color: #fff !important;
+  color: #2F373F !important;
 }
 .m-btn-link-white:before {
   background: #fff;
@@ -427,6 +427,7 @@ img {
 	font-weight: 800;
 	position: relative;
   font-size: 23px;
+  text-shadow: 1px 1px 2px black;
 }
 .header-nav .navbar-brand span {
 	 width: 6px;
@@ -447,9 +448,10 @@ img {
   font-size: 12px;
   vertical-align: top;
   color: #ececec;
-  font-weight: 300;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.215em;
+  text-shadow: 1px 1px 2px black;
 }
 .header-nav .navbar-nav .nav-link:after {
 	content: '';
@@ -510,18 +512,23 @@ img {
   .header-nav {
     top: 0;
     padding:10px 15px;
+    text-shadow: 1px 1px 2px black;
   }
   .header-nav.fixed-header {
     padding:10px 15px;
+    text-shadow: 1px 1px 2px black;
   }
   .navbar-nav {
     padding-top: 5px;
+    text-shadow: 1px 1px 2px black;
   }
   .header-nav .navbar-nav > li {
     margin: 8px 0;
+    text-shadow: 1px 1px 2px black;
   }
   .header-nav .navbar-nav .nav-link {
     padding: 0;
+    text-shadow: 1px 1px 2px black;
   }
 }
 
@@ -566,6 +573,7 @@ img {
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+          text-shadow: 1px 1px 2px white;
 }
 
 .home-banner .particles-js-canvas-el {
@@ -591,13 +599,13 @@ img {
 
 .home-banner h4 {
   font-size: 20px;
-  color: #fff;
+  color: #2F373F;
   margin: 0 0 5px;
 }
 .home-banner h5 {
   font-size: 65px;
   font-weight: 700;
-  color: #fff;
+  color: #2F373F;
   margin:0 0 15px;
 }
 .home-banner p {
@@ -606,7 +614,7 @@ img {
   font-weight: 400;
   font-size: 18px;
   padding: 0 0 35px;
-  color: #fff;
+  color: #2F373F;
   margin: 0;
 }
 
@@ -1664,6 +1672,10 @@ blockquote.blockquote-left .parson { font-weight: 600; }
 }
 .footer p {
   margin: 0;
+}
+.footer p {
+  margin: 0;
+  color: black;
 }
 .footer .footer-logo {
   font-size: 30px;
