@@ -4063,3 +4063,8 @@ blockquote.blockquote-left .parson { font-weight: 600; }
   .sm-p-25-b {padding-bottom: 25%;}
   .sm-p-25-half-b {padding-bottom: 25.5%;}
 }
+
+label {
+  display:block;
+  position:relative;
+  }

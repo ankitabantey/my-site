@@ -452,25 +452,26 @@
                 <div class="col-md-6">
                   <!-- Contact Form -->
                   <div class="contact-form">
-                    <h2>Say Something</h2>
-                    <form method="POST">
-                      <div class="form-group">
-                        <input name="Name" id="name" placeholder="Name" class="form-control" type="text">
-                      </div>
-                      <div class="form-group">
-                        <input name="Email" id="email" placeholder="Email" class="form-control" type="email">
-                      </div>
-                      <div class="form-group">
-                        <input name="Subject" id="subject" placeholder="Subject" class="form-control" type="text">
-                      </div>
-                      <div class="form-group">
-                        <textarea name="message" id="message" placeholder="Your message" rows="3" class="form-control"></textarea>
-                      </div>
-                      <div class="send">
-                        <button class="m-btn m-btn-theme" onclick="send_mail()" type="button" value="Send">Send</button>
-                        <span id="suce_message" class="text-success" style="display: none">Message Sent Successfully</span>
-                        <span id="err_message" class="text-danger" style="display: none">Message Sending Failed</span>
-                      </div>
+                    <h2>Contact Me</h2>
+                    <form
+                      action="https://formspree.io/mvovojwp"
+                      method="POST"
+                    >
+                      <label>
+                        Your Email: <br>
+                        <input type="text" name="_replyto"> 
+                      </label>
+                      <label>
+                        Your Name: <br>
+                        <textarea name="name"></textarea> 
+                      </label>
+                      <label>
+                        Your Message: <br>
+                        <textarea name="message"></textarea>
+                      </label>
+                      <label>
+                        <button type="submit">Send</button>
+                      </label>
                     </form>
                   </div>
                   <!-- / -->
